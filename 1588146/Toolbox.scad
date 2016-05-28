@@ -19,8 +19,9 @@ difference() {
 
 	union() {
 		hull() {
+            translate([0,5,0])
 			minkowski() {
-				cube([width,height,1]);
+				cube([width,70,1]);
 				cylinder(r=2,h=1);
 			}
 
